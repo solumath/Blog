@@ -32,12 +32,6 @@ body {
   width: 80vw;
 }
 
-.side .fancy {
-  font-family: "Permanent Marker", cursive;
-  font-size: 1.8em;
-  line-height: 0.6em;
-}
-
 #left-side {
   background-color: var(--left-color);
   width: 60%;
@@ -48,20 +42,12 @@ body {
   color: white;  
 }
 
-#left-side .fancy {
-  color: var(--right-color);
-}
-
 #right-side {
   background-color: var(--right-color);
 }
 
 #right-side .title {
   color: var(--dark);
-}
-
-#right-side .fancy {
-  color: white;
 }
 
 a:link, a:visited {
