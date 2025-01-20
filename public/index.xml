@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Solumath</title>
+    <link>https://solumath.cz/</link>
+    <description>Recent content on Solumath</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>solumath99@gmail.com (Solumath)</managingEditor>
+    <webMaster>solumath99@gmail.com (Solumath)</webMaster>
+    <copyright>© 2025 Solumath</copyright>
+    <lastBuildDate>Mon, 20 Jan 2025 21:02:23 +0000</lastBuildDate><atom:link href="https://solumath.cz/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>https://solumath.cz/about/</link>
+      <pubDate>Mon, 20 Jan 2025 21:02:23 +0000</pubDate>
+      <author>solumath99@gmail.com (Solumath)</author>
+      <guid>https://solumath.cz/about/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hello world</title>
+      <link>https://solumath.cz/posts/hello_world/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <author>solumath99@gmail.com (Solumath)</author>
+      <guid>https://solumath.cz/posts/hello_world/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
