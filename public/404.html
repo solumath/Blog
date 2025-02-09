@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
-  data-auto-appearance="true"><head>
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -15,7 +15,7 @@
   
   
   
-  <link rel="canonical" href="https://solumath.cz/404.html" />
+  <link rel="canonical" href="http://localhost:1313/404.html" />
   
   
   
@@ -26,8 +26,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.abe04668e5af705d9bde79f751a484642c9de8ebf59bbb3a85ab724d401f5c296cb2d347b87c3ca26151e1b85e703d19ff78c7a07a6537c5dbc0a7be784bed6f.css"
-    integrity="sha512-q&#43;BGaOWvcF2b3nn3UaSEZCyd6Ov1m7s6hatyTUAfXClsstNHuHw8omFR4bhecD0Z/3jHoHplN8XbwKe&#43;eEvtbw==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.97255f4ac571ca0618b894cd643d2bf7042beb63a2f286a7ebe977ed61f125c1e2ed66ffa9e62c13c0a7561f11fe85abf28b8758bfa8e2d43a8012992fe32881.css"
+    integrity="sha512-lyVfSsVxygYYuJTNZD0r9wQr62Oi8oan6&#43;l37WHxJcHi7Wb/qeYsE8CnVh8R/oWr8ouHWL&#43;o4tQ6gBKZL&#43;MogQ==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -67,7 +67,7 @@
   
   
   
-  <meta property="og:url" content="https://solumath.cz/404.html">
+  <meta property="og:url" content="http://localhost:1313/404.html">
   <meta property="og:site_name" content="Solumath">
   <meta property="og:title" content="404 Page not found">
   <meta property="og:locale" content="en">
@@ -140,6 +140,29 @@
   <meta name="theme-color"/>
   
   
+  
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script>
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyDF17qT-THUO-YQuBdaRDb8b3uV7yzu2qc",
+      authDomain: "AIzaSyDF17qT-THUO-YQuBdaRDb8b3uV7yzu2qc",
+      projectId: "solumath-cz",
+      storageBucket: "solumath-cz.firebasestorage.app",
+      messagingSenderId: "506411728272",
+      appId: "1:506411728272:web:2535826ef12c737c4f4715",
+      measurementId: "G-VVJTL3H543"
+    };
+
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+
+  </script>
+  
+  
 </head>
 <body
   class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
@@ -152,7 +175,7 @@
   
   <div class="min-h-[148px]"></div>
 <div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
-  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom bg-neutral dark:bg-neutral-800"></div>
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
   <div class="relative max-w-[64rem] ml-auto mr-auto">
     <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start gap-x-3">
@@ -172,7 +195,7 @@
             
   <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-base font-medium" title="">
+    <p class="text-base font-medium" title="Posts">
         Blog
     </p>
 </a>
@@ -327,7 +350,7 @@
   <li class="mt-1">
     <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
-        <p class="text-bg font-bg" title="">
+        <p class="text-bg font-bg" title="Posts">
             Blog
         </p>
     </a>
@@ -364,6 +387,16 @@
 
 
 
+
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
 
 
   </div>
@@ -449,7 +482,7 @@
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="https://solumath.cz/"
+  data-url="http://localhost:1313/"
   style="z-index:500"
 >
   <div
