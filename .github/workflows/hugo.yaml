@@ -34,7 +34,7 @@ jobs:
     env:
       # Update to the release compatible with your theme
       # https://github.com/gohugoio/hugo/releases/latest
-      HUGO_VERSION: 0.143.0
+      HUGO_VERSION: 0.143.1
     steps:
       - name: Install Hugo CLI
         run: |
