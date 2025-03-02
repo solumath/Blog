@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>My obsidian setup &middot; Solumath</title>
-  <meta name="title" content="My obsidian setup &middot; Solumath" />
+  <title>Obsidian &#43; Hugo &#43; Github pages Blog &middot; Solumath</title>
+  <meta name="title" content="Obsidian &#43; Hugo &#43; Github pages Blog &middot; Solumath" />
   
-  <meta name="description" content="Obsidian setup from programmer to other programmers. Description of structure, obsidian plugins and syncing method for multiple devices." />
-  <meta name="keywords" content="obsidian, obsidian-plugin, " />
+  <meta name="description" content="How to set up blog using obsidian &#43; hugo &#43; github pages." />
+  <meta name="keywords" content="hugo, obsidian, bash, tutorial, github-pages, git, " />
   
   
-  <link rel="canonical" href="https://solumath.cz/posts/002-my-obsidian-setup/" />
+  <link rel="canonical" href="https://solumath.cz/posts/003-setting-up-blog/" />
   
   
   
@@ -67,24 +67,28 @@
   
   
   
-  <meta property="og:url" content="https://solumath.cz/posts/002-my-obsidian-setup/">
+  <meta property="og:url" content="https://solumath.cz/posts/003-setting-up-blog/">
   <meta property="og:site_name" content="Solumath">
-  <meta property="og:title" content="My obsidian setup">
-  <meta property="og:description" content="Obsidian setup from programmer to other programmers. Description of structure, obsidian plugins and syncing method for multiple devices.">
+  <meta property="og:title" content="Obsidian &#43; Hugo &#43; Github pages Blog">
+  <meta property="og:description" content="How to set up blog using obsidian &#43; hugo &#43; github pages.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-02-03T13:52:05+01:00">
-    <meta property="article:modified_time" content="2025-02-09T19:13:17+01:00">
+    <meta property="article:published_time" content="2025-02-08T13:52:03+00:00">
+    <meta property="article:modified_time" content="2025-03-02T15:45:30+01:00">
+    <meta property="article:tag" content="Hugo">
     <meta property="article:tag" content="Obsidian">
-    <meta property="article:tag" content="Obsidian-Plugin">
-    <meta property="og:image" content="https://solumath.cz/posts/002-my-obsidian-setup/featured.jpg">
+    <meta property="article:tag" content="Bash">
+    <meta property="article:tag" content="Tutorial">
+    <meta property="article:tag" content="Github-Pages">
+    <meta property="article:tag" content="Git">
+    <meta property="og:image" content="https://solumath.cz/posts/003-setting-up-blog/featured.jpg">
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://solumath.cz/posts/002-my-obsidian-setup/featured.jpg">
-  <meta name="twitter:title" content="My obsidian setup">
-  <meta name="twitter:description" content="Obsidian setup from programmer to other programmers. Description of structure, obsidian plugins and syncing method for multiple devices.">
+  <meta name="twitter:image" content="https://solumath.cz/posts/003-setting-up-blog/featured.jpg">
+  <meta name="twitter:title" content="Obsidian &#43; Hugo &#43; Github pages Blog">
+  <meta name="twitter:description" content="How to set up blog using obsidian &#43; hugo &#43; github pages.">
 
   
   <script type="application/ld+json">
@@ -92,26 +96,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "My obsidian setup",
-    "headline": "My obsidian setup",
-    "description": "Obsidian setup from programmer to other programmers. Description of structure, obsidian plugins and syncing method for multiple devices.",
+    "name": "Obsidian \u002b Hugo \u002b Github pages Blog",
+    "headline": "Obsidian \u002b Hugo \u002b Github pages Blog",
+    "description": "How to set up blog using obsidian \u002b hugo \u002b github pages.",
     
     "inLanguage": "en",
-    "url" : "https:\/\/solumath.cz\/posts\/002-my-obsidian-setup\/",
+    "url" : "https:\/\/solumath.cz\/posts\/003-setting-up-blog\/",
     "author" : {
       "@type": "Person",
       "name": "Solumath"
     },
     "copyrightYear": "2025",
-    "dateCreated": "2025-02-03T13:52:05\u002b01:00",
-    "datePublished": "2025-02-03T13:52:05\u002b01:00",
+    "dateCreated": "2025-02-08T13:52:03\u002b00:00",
+    "datePublished": "2025-02-08T13:52:03\u002b00:00",
     
-    "dateModified": "2025-02-09T19:13:17\u002b01:00",
+    "dateModified": "2025-03-02T15:45:30\u002b01:00",
     
-    "keywords": ["obsidian","obsidian-plugin"],
+    "keywords": ["hugo","obsidian","bash","tutorial","github-pages","git"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1327"
+    "wordCount": "1664"
   }]
   </script>
 
@@ -137,6 +141,17 @@
 <script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
 
 
+
+  
+  
+  
+  
+  <script
+    defer
+    type="text/javascript"
+    src="/js/mermaid.bundle.e1dc118d1d5c060fb5035f6ed11303122f4ad26ae607992d7c428d00430883ca9f26a9f029180a9dd9c7c3774502a38f34fac2ad91dd4e8eb2a739f068841356.js"
+    integrity="sha512-4dwRjR1cBg&#43;1A19u0RMDEi9K0mrmB5ktfEKNAEMIg8qfJqnwKRgKndnHw3dFAqOPNPrCrZHdTo6ypznwaIQTVg=="
+  ></script>
 
 
 
@@ -466,7 +481,7 @@
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/posts/002-my-obsidian-setup/featured.jpg);">
+    style="background-image:url(/posts/003-setting-up-blog/featured.jpg);">
     
 
 
@@ -519,8 +534,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/posts/002-my-obsidian-setup/"
-      >My obsidian setup</a
+      href="/posts/003-setting-up-blog/"
+      >Obsidian &#43; Hugo &#43; Github pages Blog</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -529,7 +544,7 @@
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      My obsidian setup
+      Obsidian + Hugo + Github pages Blog
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -584,7 +599,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-02-03T13:52:05&#43;01:00">3 February 2025</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-02-09T19:13:17&#43;01:00">Updated: 9 February 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1327 words</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2025-02-08T13:52:03&#43;00:00">8 February 2025</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-03-02T15:45:30&#43;01:00">Updated: 2 March 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1664 words</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -597,7 +612,7 @@
       
     
   
-  <span id="views_posts/002-my-obsidian-setup/index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
+  <span id="views_posts/003-setting-up-blog/index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
   <span class="inline-block align-text-bottom">
 
   <span class="relative block icon">
@@ -619,7 +634,7 @@
       
     
   
-  <span id="likes_posts/002-my-obsidian-setup/index.md"
+  <span id="likes_posts/003-setting-up-blog/index.md"
     class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400"
     title="likes">loading</span>
   <span class="inline-block align-text-bottom">
@@ -662,7 +677,7 @@
 
 <span class="mb-[2px]">
   <a
-    href="https://github.com/solumath/blog/tree/main/content/posts/002-my-obsidian-setup/index.md"
+    href="https://github.com/solumath/blog/tree/main/content/posts/003-setting-up-blog/index.md"
     class="text-lg hover:text-primary-500"
     rel="noopener noreferrer"
     target="_blank"
@@ -720,6 +735,14 @@
   
   
   
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/hugo/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Hugo
+  </span>
+</span>
+  </span>
+  
   <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/obsidian/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
@@ -728,10 +751,34 @@
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/obsidian-plugin/&#34;,'_self');return false;">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/bash/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Obsidian-Plugin
+    Bash
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/tutorial/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Tutorial
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/github-pages/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Github-Pages
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/git/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Git
   </span>
 </span>
   </span>
@@ -876,36 +923,40 @@ for me or the people around me.</div>
     class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#vault">Vault</a>
+    <li><a href="#why-write-a-blog">Why Write a Blog?</a></li>
+    <li><a href="#blog-options">Blog Options</a>
       <ul>
-        <li><a href="#structure">Structure</a></li>
-        <li><a href="#settings">Settings</a></li>
+        <li><a href="#obsidian-publish">Obsidian Publish</a></li>
+        <li><a href="#quartz">Quartz</a></li>
+        <li><a href="#hugo">Hugo</a></li>
       </ul>
     </li>
-    <li><a href="#plugins">Plugins</a>
+    <li><a href="#setting-up-obsidian-with-hugo">Setting up Obsidian with Hugo</a>
       <ul>
-        <li><a href="#advanced-tables">Advanced Tables</a></li>
-        <li><a href="#commander">Commander</a></li>
-        <li><a href="#dataview">Dataview</a></li>
-        <li><a href="#git">Git</a></li>
-        <li><a href="#github-copilot">Github Copilot</a></li>
-        <li><a href="#kanban">Kanban</a></li>
-        <li><a href="#keyshots">Keyshots</a></li>
-        <li><a href="#linter">Linter</a></li>
-        <li><a href="#omnisearch">Omnisearch</a></li>
-        <li><a href="#shell-commands">Shell-commands</a></li>
-        <li><a href="#table-of-contents">Table of Contents</a></li>
-        <li><a href="#update-modified-date">Update Modified Date</a></li>
+        <li><a href="#workflow">Workflow</a></li>
       </ul>
     </li>
-    <li><a href="#syncthing-across-devices">Sync(th)ing Across Devices</a></li>
-    <li><a href="#obsidian-sync">Obsidian Sync</a>
+    <li><a href="#tools">Tools</a></li>
+    <li><a href="#step-by-step">Step by step</a>
       <ul>
-        <li><a href="#syncthing">Syncthing</a></li>
-        <li><a href="#settings-1">Settings</a></li>
+        <li><a href="#obsidian">Obsidian</a>
+          <ul>
+            <li><a href="#1-directory-structure">1. Directory Structure</a></li>
+            <li><a href="#2-front-matter-template">2. Front Matter Template</a></li>
+            <li><a href="#3-naming-files">3. Naming Files</a></li>
+          </ul>
+        </li>
+        <li><a href="#github-repository">GitHub Repository</a></li>
+        <li><a href="#hugo-1">Hugo</a></li>
+        <li><a href="#github-pages">GitHub Pages</a>
+          <ul>
+            <li><a href="#1-create-github-page">1. Create GitHub Page</a></li>
+            <li><a href="#2-create-github-workflow">2. Create GitHub Workflow</a></li>
+          </ul>
+        </li>
+        <li><a href="#push">Push</a></li>
       </ul>
     </li>
-    <li><a href="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
   </div>
@@ -919,36 +970,40 @@ for me or the people around me.</div>
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#vault">Vault</a>
+    <li><a href="#why-write-a-blog">Why Write a Blog?</a></li>
+    <li><a href="#blog-options">Blog Options</a>
       <ul>
-        <li><a href="#structure">Structure</a></li>
-        <li><a href="#settings">Settings</a></li>
+        <li><a href="#obsidian-publish">Obsidian Publish</a></li>
+        <li><a href="#quartz">Quartz</a></li>
+        <li><a href="#hugo">Hugo</a></li>
       </ul>
     </li>
-    <li><a href="#plugins">Plugins</a>
+    <li><a href="#setting-up-obsidian-with-hugo">Setting up Obsidian with Hugo</a>
       <ul>
-        <li><a href="#advanced-tables">Advanced Tables</a></li>
-        <li><a href="#commander">Commander</a></li>
-        <li><a href="#dataview">Dataview</a></li>
-        <li><a href="#git">Git</a></li>
-        <li><a href="#github-copilot">Github Copilot</a></li>
-        <li><a href="#kanban">Kanban</a></li>
-        <li><a href="#keyshots">Keyshots</a></li>
-        <li><a href="#linter">Linter</a></li>
-        <li><a href="#omnisearch">Omnisearch</a></li>
-        <li><a href="#shell-commands">Shell-commands</a></li>
-        <li><a href="#table-of-contents">Table of Contents</a></li>
-        <li><a href="#update-modified-date">Update Modified Date</a></li>
+        <li><a href="#workflow">Workflow</a></li>
       </ul>
     </li>
-    <li><a href="#syncthing-across-devices">Sync(th)ing Across Devices</a></li>
-    <li><a href="#obsidian-sync">Obsidian Sync</a>
+    <li><a href="#tools">Tools</a></li>
+    <li><a href="#step-by-step">Step by step</a>
       <ul>
-        <li><a href="#syncthing">Syncthing</a></li>
-        <li><a href="#settings-1">Settings</a></li>
+        <li><a href="#obsidian">Obsidian</a>
+          <ul>
+            <li><a href="#1-directory-structure">1. Directory Structure</a></li>
+            <li><a href="#2-front-matter-template">2. Front Matter Template</a></li>
+            <li><a href="#3-naming-files">3. Naming Files</a></li>
+          </ul>
+        </li>
+        <li><a href="#github-repository">GitHub Repository</a></li>
+        <li><a href="#hugo-1">Hugo</a></li>
+        <li><a href="#github-pages">GitHub Pages</a>
+          <ul>
+            <li><a href="#1-create-github-page">1. Create GitHub Page</a></li>
+            <li><a href="#2-create-github-workflow">2. Create GitHub Workflow</a></li>
+          </ul>
+        </li>
+        <li><a href="#push">Push</a></li>
       </ul>
     </li>
-    <li><a href="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
   </div>
@@ -1030,351 +1085,261 @@ for me or the people around me.</div>
 
 
         <div class="article-content max-w-prose mb-20">
-          
+          <p>This is a step-by-step guide on how I created the blog you’re reading right now.</p>
+<p>You can find all the code in my repo.
+<a id="github-fa800e3099c4a7f3e3e6a6c438a1fd06" target="_blank" href="https://github.com/solumath/Blog" class="cursor-pointer">
+  <div
+    class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md shadow-2xl">
 
-<h2 class="relative group">Vault 
-    <div id="vault" class="anchor"></div>
+    <div class="flex items-center">
+      <span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+  </span>
+
+
+      </span>
+      <div
+        id="github-fa800e3099c4a7f3e3e6a6c438a1fd06-full_name"
+        class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+        solumath/Blog
+      </div>
+    </div>
+
+    <p id="github-fa800e3099c4a7f3e3e6a6c438a1fd06-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+      my own website
+    </p>
+
+    <div class="m-0 mt-2 flex items-center">
+
+      <span class="mr-1 inline-block h-3 w-3 rounded-full"
+        style="background-color: #e34c26"></span>
+      <div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+         HTML 
+      </div>
+
+      <span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/></svg>
+  </span>
+
+
+      </span>
+      <div id="github-fa800e3099c4a7f3e3e6a6c438a1fd06-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+        0
+      </div>
+
+      <span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/></svg>
+  </span>
+
+
+      </span>
+      <div id="github-fa800e3099c4a7f3e3e6a6c438a1fd06-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+        0
+      </div>
+
+    </div>
+
+  </div>
+  <script>
+    fetch("https://api.github.com/repos/solumath/blog", {
+      headers: new Headers({
+        'User-agent': 'Mozilla/4.0 Custom User Agent'
+      })
+    })
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('github-fa800e3099c4a7f3e3e6a6c438a1fd06-full_name').innerHTML = data.full_name;
+        document.getElementById('github-fa800e3099c4a7f3e3e6a6c438a1fd06-description').innerHTML = data.description;
+        document.getElementById('github-fa800e3099c4a7f3e3e6a6c438a1fd06-stargazers').innerHTML = data.stargazers_count;
+        document.getElementById('github-fa800e3099c4a7f3e3e6a6c438a1fd06-forks').innerHTML = data.forks;
+      })
+      .catch(error => console.error(error))
+  </script>
+</a></p>
+
+
+<h2 class="relative group">Why Write a Blog? 
+    <div id="why-write-a-blog" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#vault" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#why-write-a-blog" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Ever wanted to share your experiences or projects but weren’t sure where or how to start? That’s exactly how I’ve felt. I have been working on so many projects lately and I wanted to share a little bit of my experience.</p>
+<p>I&rsquo;m not a professional writer, but a professional &ldquo;fuck stuff up&rdquo; guy and believe me that happens more often than it should. Most of the time it pays off and I learn from these mistakes and that&rsquo;s why you are reading this.</p>
+<p>If you’re setting up your own blog, don’t be afraid to fuck things up a bit. You’ll learn way more from experimenting than just following a guide on the internet.</p>
+
+
+<h2 class="relative group">Blog Options 
+    <div id="blog-options" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#blog-options" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>When I was considering writing my own blog my biggest priority was convenience. I wanted something that fit my workflow.</p>
+<p>As I recently started using Obsidian I was looking into options how to take advantage of that.</p>
+<p>Mostly I didn&rsquo;t want to be tied down by a specific format which would make transition to different format challenging in the future.</p>
+
+
+<h3 class="relative group">Obsidian Publish 
+    <div id="obsidian-publish" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#obsidian-publish" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p><a href="https://obsidian.md/publish" target="_blank">Obsidian publish</a> is pretty nice if you want something that works out of the box. Is completely compatible with Obsidian and has some customisation.</p>
+<p>Unfortunately it&rsquo;s a paid service of $8/month that is with yearly subscription, $10 if you go monthly. Maximum size of site is 4 GB.</p>
+<p>I don&rsquo;t want to be bothered by limited size of my page or other specifications which I would need to tip toe around.</p>
+<p>I agree that for most people this solution is okay. But if you want it cheap there&rsquo;s better way.</p>
+
+
+<h3 class="relative group">Quartz 
+    <div id="quartz" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#quartz" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p><a href="https://github.com/jackyzha0/quartz" target="_blank">Quartz</a> is an open source alternative to Obsidian publish. It fully supports Obsidian and is customizable.</p>
+<p>However customisation is harder and there is not that much community driven themes that I would find pleasing. The layout is similar to Obsidian vault which makes it impractical for blog site.</p>
+
+
+<h3 class="relative group">Hugo 
+    <div id="hugo" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#hugo" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p><a href="https://github.com/gohugoio/hugo" target="_blank">Hugo</a> is an open source framework that generates static sites from markdown files. It is not fully Obsidian compatible but I chose it anyway.</p>
+<p>I selected this framework for 4 key reasons:</p>
+<ul>
+<li>Open source -&gt; I can see how the code works</li>
+<li>Generates static files -&gt; can be hosted on GitHub pages</li>
+<li>Fairly popular -&gt; easier to find resolution for problems</li>
+<li>Customisable with community themes</li>
+</ul>
+<p>To be honest, setting up Hugo is easy but there are some obstacles and it is not plug and play. However, I was confident that I could make the most of its features and reach the desired result.</p>
+
+
+<h2 class="relative group">Setting up Obsidian with Hugo 
+    <div id="setting-up-obsidian-with-hugo" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#setting-up-obsidian-with-hugo" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
 
 
-<h3 class="relative group">Structure 
-    <div id="structure" class="anchor"></div>
+<h3 class="relative group">Workflow 
+    <div id="workflow" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#structure" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#workflow" aria-label="Anchor">#</a>
     </span>        
     
 </h3>
-<p>My main sorting relies on keeping files placed in proper folders with correct topics. This allows me to navigate manually through the folder tree. Here&rsquo;s an example of some of my folders:</p>
-<ul>
-<li><code>Blog</code> — all my posts and associated materials</li>
-<li><code>Notes</code> — quick items I need to remember or work on later</li>
-<li><code>Daily posts</code> — ranging from daily tasks to dream journals</li>
-<li><code>Templates</code> — templates for Ocbsidian</li>
-<li><code>OS</code> — configuration settings for multiple operating systems I use</li>
-<li>Other topics &hellip;</li>
-</ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">├─ blog
-</span></span><span class="line"><span class="cl">├─ notes
-</span></span><span class="line"><span class="cl">├─ daily-posts
-</span></span><span class="line"><span class="cl">├─ kubernetes
-</span></span><span class="line"><span class="cl">├─ OS
-</span></span><span class="line"><span class="cl">├─ ...
-</span></span><span class="line"><span class="cl">└─ templates
-</span></span></code></pre></div>
+<p>The process of writing blog is simple:</p>
+<ol>
+<li>Write the post in Obsidian</li>
+<li>Copy blog post using shell-commands plugin to a git repository</li>
+<li>Generate content and check the outcome in browser</li>
+<li>Push to GitHub</li>
+<li>GitHub workflow will deploy the page automatically on push to main branch</li>
+</ol>
+<div class="mermaid" align="center">
+  
+%%{
+	init: {
+		'theme': 'base',
+		'themeVariables': {
+		'primaryColor': '#262626',
+		'primaryTextColor': '#fff',
+		'primaryBorderColor': '#69e1ff',
+		'lineColor': '#fff',
+		'tertiaryColor': '#fff'
+		}
+    }
+}%%
+graph TD;
+A[Obsidian] --> B[Git Repository] --> C[Hugo] --> D[GitHub] --> E[GitHub Pages]
 
-<h3 class="relative group">Settings 
-    <div id="settings" class="anchor"></div>
+</div>
+
+
+
+<h2 class="relative group">Tools 
+    <div id="tools" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#settings" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#tools" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
-<p>My settings are configured to enable Obsidian blog usage without requiring extensive file modifications later. The focus is on maintaining markdown-compatible files, ensuring flexibility for potential transfers:</p>
+</h2>
 <ul>
-<li><code>New link format</code> — when set to shortest path, it&rsquo;s not markdown-compatible; use absolute or relative paths (I use relative paths due to Hugo blog requirements)</li>
-<li><code>Use Wikilinks</code> — enabling this feature breaks markdown compatibility</li>
-<li><code>Detect all files extensions</code> — enhances overall file overview within the vault
-
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        loading="lazy"
-        src="/posts/002-my-obsidian-setup/images/vault-settings.png"
-        alt="vault settings"
-      />
-      
-    </figure>
-</li>
+<li><a href="https://obsidian.md/" target="_blank">Obsidian</a></li>
+<li><a href="https://gohugo.io/" target="_blank">Hugo</a></li>
+<li><a href="https://git-scm.com/" target="_blank">Git</a></li>
+<li><a href="https://github.com/" target="_blank">GitHub account</a></li>
 </ul>
 
 
-<h2 class="relative group">Plugins 
-    <div id="plugins" class="anchor"></div>
+<h2 class="relative group">Step by step 
+    <div id="step-by-step" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#plugins" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#step-by-step" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
 
 
-<h3 class="relative group">Advanced Tables 
-    <div id="advanced-tables" class="anchor"></div>
+<h3 class="relative group">Obsidian 
+    <div id="obsidian" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#advanced-tables" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#obsidian" aria-label="Anchor">#</a>
     </span>        
     
 </h3>
-<p><a href="https://github.com/tgrosinger/advanced-tables-obsidian" target="_blank">Source</a></p>
-<p>Makes editing markdown tables hassle-free. On the right panel, you&rsquo;ll find these settings, which allow you to align content, sort tables, or remove entire columns or rows.
-
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        loading="lazy"
-        src="/posts/002-my-obsidian-setup/images/advanced-tables.png"
-        alt=""
-      />
-      
-    </figure>
-</p>
-
-
-<h3 class="relative group">Commander 
-    <div id="commander" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#commander" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p><a href="https://github.com/phibr0/obsidian-commander" target="_blank">Source</a></p>
-<p>Adds custom commands to Obsidian&rsquo;s UI. You can assign icons to actions that would otherwise require remembering shortcuts. This makes the UI highly customizable and adaptable to your workflow. For instance, I&rsquo;ve added the <code>template insert</code> function to the icons above notes. You can create any icon for any command available in Obsidian&rsquo;s commands (accessible via CTRL + O).</p>
-<p>
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        loading="lazy"
-        src="/posts/002-my-obsidian-setup/images/commander.png"
-        alt="custom template icon"
-      />
-      
-    </figure>
-</p>
-
-
-<h3 class="relative group">Dataview 
-    <div id="dataview" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#dataview" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p><a href="https://github.com/blacksmithgu/obsidian-dataview" target="_blank">Source</a></p>
-<p>Enables you to query your vault like a database using SQL-like syntax. This creates dynamic views of aspects you&rsquo;re interested in without requiring manual updates. For example, I use it to list all posts where <code>draft = true</code> in their front matter. The plugin provides nearly seamless interaction with your vault&rsquo;s contents, allowing you to inspect any aspect you need.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">TABLE</span><span class="w"> </span><span class="k">WITHOUT</span><span class="w"> </span><span class="n">ID</span><span class="w"> </span><span class="n">link</span><span class="p">(</span><span class="n">file</span><span class="p">.</span><span class="n">link</span><span class="p">,</span><span class="w"> </span><span class="n">file</span><span class="p">.</span><span class="n">frontmatter</span><span class="p">.</span><span class="n">title</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">File</span><span class="p">,</span><span class="w"> </span><span class="n">file</span><span class="p">.</span><span class="n">mtime</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">Modified</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="s2">&#34;blog/posts&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">WHERE</span><span class="w"> </span><span class="n">draft</span><span class="o">=</span><span class="k">true</span><span class="w">
-</span></span></span></code></pre></div><p>
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        loading="lazy"
-        src="/posts/002-my-obsidian-setup/images/dataview.png"
-        alt="dataview example"
-      />
-      
-    </figure>
-</p>
-
-
-<h3 class="relative group">Git 
-    <div id="git" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#git" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p><a href="https://github.com/Vinzent03/obsidian-git" target="_blank">Source</a></p>
-<p>Provides basic git navigation directly within Obsidian, eliminating the need to switch to the command line or another GUI. This streamlines the process of pulling and pushing changes when your vault or folder is synchronised through a repository.</p>
-
-
-<h3 class="relative group">Github Copilot 
-    <div id="github-copilot" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#github-copilot" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p><a href="https://github.com/Pierrad/obsidian-github-copilot" target="_blank">Source</a></p>
-<p>I utilize it primarily for autocompleting concepts and handling tedious tasks, which proves faster than manual typing. Requires an active subscription to Github Copilot.</p>
-
-
-<h3 class="relative group">Kanban 
-    <div id="kanban" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#kanban" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p><a href="https://github.com/mgmeyers/obsidian-kanban" target="_blank">Source</a></p>
-<p>Implements sticky notes functionality within Obsidian, offering flexible viewing options including tables, columns, and lists based on your preferences. Similar to Trello with some limitations.
-
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        loading="lazy"
-        src="/posts/002-my-obsidian-setup/images/kanban.png"
-        alt=""
-      />
-      
-    </figure>
-</p>
-
-
-<h3 class="relative group">Keyshots 
-    <div id="keyshots" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#keyshots" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p><a href="https://github.com/KrazyManJ/obsidian-keyshots" target="_blank">Source</a></p>
-<p>This is just must have if you are used to some IDE shortcuts. As a Visual Studio Code daily user, I rely heavily on shortcuts like moving lines up/down and using multiple cursors. Without these features, I wouldn&rsquo;t find Obsidian practical enough to use. Keyshots supports three major IDEs:</p>
-<ul>
-<li>Visual Studio Code</li>
-<li>Microsoft Visual Studio</li>
-<li>Jetbrains IDEs</li>
-</ul>
-<p>But if you are Vim enjoyer. in Settings -&gt; Editor you can enable vim bindings.
-
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        loading="lazy"
-        src="/posts/002-my-obsidian-setup/images/vim.png"
-        alt=""
-      />
-      
-    </figure>
-</p>
-
-
-<h3 class="relative group">Linter 
-    <div id="linter" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#linter" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p><a href="https://github.com/platers/obsidian-linter" target="_blank">Source</a></p>
-<p>Linting your files is necessary if you want to have structured formatting. Linter has many customizable rules you can set or omit based on your preference. And if you find something missing you can specify them in <code>Linter Config</code>.
-
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        loading="lazy"
-        src="/posts/002-my-obsidian-setup/images/linter-config.png"
-        alt="linter config"
-      />
-      
-    </figure>
-</p>
-
-
-<h3 class="relative group">Omnisearch 
-    <div id="omnisearch" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#omnisearch" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p><a href="https://github.com/scambier/obsidian-omnisearch" target="_blank">Source</a></p>
-<p>I can&rsquo;t stress how much this changes the way you can search for anything in your vault. Obsidian lacks native fuzzy search functionality. This however enables you to search anything and anywhere.
-Here is example how it works (gif from their official repository).
-
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        loading="lazy"
-        src="/posts/002-my-obsidian-setup/images/omnisearch.gif"
-        alt="omnisearch example"
-      />
-      
-    </figure>
-</p>
-
-
-<h3 class="relative group">Shell-commands 
-    <div id="shell-commands" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#shell-commands" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p><a href="https://github.com/Taitava/obsidian-shellcommands" target="_blank">Source</a></p>
-<p>Enables CLI command execution directly within Obsidian.
-I&rsquo;ve setup multiple commands to streamline my workflow. Some of them you can see in the picture below. After you setup these commands. They are accessible using <code>CTRL + P</code> and their respective name.
-
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        loading="lazy"
-        src="/posts/002-my-obsidian-setup/images/shell-commands.png"
-        alt="example of shell commands"
-      />
-      
-    </figure>
-
-Feature I would like to highlight are <code>Preactions</code>.</p>
-<p>These are customizable actions that are done before calling your command. For instance, when committing from Obsidian, I use Preactions to create customizable commit messages.
-
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        loading="lazy"
-        src="/posts/002-my-obsidian-setup/images/shell-commands-preaction.png"
-        alt="example of preaction"
-      />
-      
-    </figure>
-</p>
-<p>Now i just need to type <code>CTRL + P</code> find name of my command e.g. <code>blog: deploy post</code> and this little window will pop up.</p>
-<p>
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        loading="lazy"
-        src="/posts/002-my-obsidian-setup/images/shell-commands-commit-msg.png"
-        alt="commit message"
-      />
-      
-    </figure>
-
 
   
   
@@ -1390,14 +1355,13 @@ Feature I would like to highlight are <code>Preactions</code>.</p>
 
   <span
     
-      class="ltr:pr-3 rtl:pl-3 flex items-center"
-      style="color: #eed202"
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
     >
 
     
 
   <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M112.1 454.3c0 6.297 1.816 12.44 5.284 17.69l17.14 25.69c5.25 7.875 17.17 14.28 26.64 14.28h61.67c9.438 0 21.36-6.401 26.61-14.28l17.08-25.68c2.938-4.438 5.348-12.37 5.348-17.7L272 415.1h-160L112.1 454.3zM191.4 .0132C89.44 .3257 16 82.97 16 175.1c0 44.38 16.44 84.84 43.56 115.8c16.53 18.84 42.34 58.23 52.22 91.45c.0313 .25 .0938 .5166 .125 .7823h160.2c.0313-.2656 .0938-.5166 .125-.7823c9.875-33.22 35.69-72.61 52.22-91.45C351.6 260.8 368 220.4 368 175.1C368 78.61 288.9-.2837 191.4 .0132zM192 96.01c-44.13 0-80 35.89-80 79.1C112 184.8 104.8 192 96 192S80 184.8 80 176c0-61.76 50.25-111.1 112-111.1c8.844 0 16 7.159 16 16S200.8 96.01 192 96.01z"/></svg>
 
   </span>
 
@@ -1407,152 +1371,359 @@ Feature I would like to highlight are <code>Preactions</code>.</p>
   <span
     
       class="dark:text-neutral-300"
-    ><p><strong>Warning</strong></p>
-<p>When configuring Preactions, ensure the variable is empty by default if you want it to always request input. Select <code>execute with value</code> and leave it empty.</p>
-</span>
+    >Check <a href="https://solumath.cz/posts/002-my-obsidian-setup/" target="_blank">My Obsidian Setup</a> before continuing here. I have summed my settings and plugins, which are necessary for the blog.</span>
 </div>
-</p>
+
+<p>Using Hugo with Obsidian brings some limitations. So to have the least amount of work when publishing from Obsidian I follow these rules.</p>
 
 
-<h3 class="relative group">Table of Contents 
-    <div id="table-of-contents" class="anchor"></div>
+<h4 class="relative group">1. Directory Structure 
+    <div id="1-directory-structure" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#table-of-contents" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#1-directory-structure" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
-<p><a href="https://github.com/hipstersmoothie/obsidian-plugin-toc" target="_blank">Source</a></p>
-<p>Perfect for generating table of contents for readme files. The plugin offers Github-compliant links and automatically updates when file changes occur.</p>
-
-
-<h3 class="relative group">Update Modified Date 
-    <div id="update-modified-date" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#update-modified-date" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p><a href="https://github.com/alangrainger/obsidian-frontmatter-modified-date" target="_blank">Source</a></p>
-<p>This minimal solution helps track post updates. Simply configure the property name in your front matter, and it will automatically update after your specified delay.</p>
-
-
-<h2 class="relative group">Sync(th)ing Across Devices 
-    <div id="syncthing-across-devices" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#syncthing-across-devices" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-<p><a href="https://syncthing.net/" target="_blank">Source</a></p>
-<p>Now we get to the big deal. Having synchronisation between multiple devices is the most crucial thing anyone can imagine. I mean you don&rsquo;t want to manually download your notes every time you write something on your mobile or computer. That would be waste of time.</p>
-<p>Options I found are <code>obsidian sync</code> and <code>syncthing</code>.</p>
-
-
-<h2 class="relative group">Obsidian Sync 
-    <div id="obsidian-sync" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#obsidian-sync" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-<p>Obsidian sync standard version is <strong>$4/month</strong> if you buy yearly subscription. And hase some real limitations like:</p>
-<ul>
-<li>1 synced vault</li>
-<li>1 GB total storage</li>
-<li>5 MB maximum file size</li>
-<li>1 month version history
-And even if you buy the premium plan the maximum of 10 GB can get pretty annoying if you are saving images into your vault(s).</li>
-</ul>
-<p>Even with the ease of use this was not a way for me to go.</p>
-
-
-<h3 class="relative group">Syncthing 
-    <div id="syncthing" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#syncthing" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>So the other option was syncthing. Here you are limited by your hardware. Which is perfect since this is much cheaper than paying the subscription.
-You just install the syncthing to devices and add each other as a shareable device and they will sync using a public relay. Public relays are servers that are hosted by other people so your devices can make connection when you don&rsquo;t have a public IP. The sync of files is encrypted so you don&rsquo;t have to worry about it.</p>
-<p>But there&rsquo;s catch about this also.</p>
-<p>Now imagine this scenario. You are working on your PC and doing some note taking. All of sudden you need to leave. You grab your phone and go out. And then you realise. I forgot to sync the vault and don&rsquo;t have the latest notes on my phone.</p>
-<p>This is exactly what happened to me. If you don&rsquo;t have syncthing running in background on your phone and on your other devices at the same time you won&rsquo;t have the latest notes.</p>
-<p>So I spin up <strong>Syncthing</strong> on my home server. Why? The server will serve as a root of truth for my devices. Whenever something updates on any device it will be first synced to server and then to others.</p>
-<p>This enables you to sync whenever you need instead of having data stealing app running all the time. That is if you care enough. But even though I think having a middle man that has your backup data is better.</p>
-
-
-<h3 class="relative group">Settings 
-    <div id="settings-1" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#settings-1" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>So how does it look? In folders I share my vault folder <code>Matrix</code>. And in remote devices I added my server <code>Matrix-01</code>.
-
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        loading="lazy"
-        src="/posts/002-my-obsidian-setup/images/syncthing-dashboard.png"
-        alt="Syncthing dashboard"
-      />
-      
-    </figure>
-</p>
-<p>When adding the remote device check select shared folders. In my scenario I only want to share my obsidian vault <code>Matrix</code>. Also I checked <code>auto accept</code> in case I add more vaults/folders. This will make it easier to auto accept sharing new folders without need to go to settings.
-
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        loading="lazy"
-        src="/posts/002-my-obsidian-setup/images/devices-sharing.png"
-        alt="devices-sharing"
-      />
-      
-    </figure>
-</p>
-<p>If you want more accessibility you can set the server as introducer which will automatically add any devices connected to your server.</p>
-
-
-<h2 class="relative group">Conclusion 
-    <div id="conclusion" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#conclusion" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-<p>I hope you discovered something new or useful. While my setup may not be the best, it&rsquo;s unique enough to show you some tips and tricks I found out along the way.</p>
-<p>In conclusion, here are my five essential plugins without which I couldn&rsquo;t effectively work:</p>
+</h4>
+<p><code>Choose your blog structure</code></p>
+<p>Hugo supports 2 styles of directory structure.</p>
 <ol>
-<li>Omnisearch</li>
-<li>Keyshots</li>
-<li>Shell-commands</li>
-<li>Dataview</li>
-<li>Linter</li>
+<li>Directory as a post where you need to supply <code>index.md</code></li>
 </ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">├─ blog
+</span></span><span class="line"><span class="cl">   ├─ posts
+</span></span><span class="line"><span class="cl">	  ├─ 01-post-name
+</span></span><span class="line"><span class="cl">		 ├─ index.md
+</span></span><span class="line"><span class="cl">		 └─ images
+</span></span><span class="line"><span class="cl">		     └─ image-name.jpg
+</span></span></code></pre></div><ol start="2">
+<li>Single markdown files as a post</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">├─ blog
+</span></span><span class="line"><span class="cl">   ├─ posts
+</span></span><span class="line"><span class="cl">	  ├─ 01-post-name.md
+</span></span><span class="line"><span class="cl">	  └─ 02-post-name.md
+</span></span></code></pre></div><p>Here I went with first option because it keeps assets together as I have images or other material for the posts.</p>
+<p>Another tip is the numbering in front of post names for two things. First you will know how many posts you have. And second you know the order in which they came out and would have been difficult to filter later.</p>
+
+
+<h4 class="relative group">2. Front Matter Template 
+    <div id="2-front-matter-template" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#2-front-matter-template" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p><code>Every post must have a Front matter</code></p>
+<p><a href="https://gohugo.io/content-management/front-matter/" target="_blank">Front matter</a> is part of file which includes metadata used by Hugo to decide what to do with content. You can use <a href="https://github.com/SilentVoid13/Templater" target="_blank">Templater</a> plugin for more complex templates but the integrated templates were good enough for me.</p>
+<p>My blog template looks like this.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nn">---</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">title</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">published</span><span class="p">:</span><span class="w"> </span>{{<span class="l">date}}T{{time}}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">modified</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">draft</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">summary</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">tags</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nn">---</span><span class="w">
+</span></span></span></code></pre></div><p>For Hugo to parse the <code>published</code> metadata correctly you need to follow <a href="https://gohugo.io/content-management/front-matter/#dates" target="_blank">dates format</a>.</p>
+<p>Here I encountered the first problem!</p>
+<p>When publishing posts they won&rsquo;t appear if their time is in future. So let&rsquo;s say you provided the correct time and the post isn&rsquo;t on the blog. What now?</p>
+<p>By default Hugo will make assumption that your time zone is UTC. This might be bothering because sometimes you just create a quick post or want to test something out and you don&rsquo;t see your post on the page.</p>
+<p>To fix this you need to use <code>HH:mm:ssZ</code> for your time format. This will add your zone shift to the time.</p>
+
+
+<h4 class="relative group">3. Naming Files 
+    <div id="3-naming-files" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#3-naming-files" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p><code>Replace white chars in file names with dashes</code></p>
+<p>To avoid formatting problem when migrating Obsidian markdown to regular markdown I name my files so that any white chars are replaced with dashes.
+That&rsquo;s because Obsidian uses char <code>%20</code> for white chars which are incompatible with regular markdown.</p>
+<p>Example</p>
+<p>From: <code>001 hello world.md</code></p>
+<p>To: <code>001-hello-world.md</code></p>
+
+
+<h3 class="relative group">GitHub Repository 
+    <div id="github-repository" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#github-repository" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Create repository with name <code>[your-name].github.io</code>.
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        src="/posts/003-setting-up-blog/images/github-new-repo.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>And copy your repository.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone git@github.com:<span class="o">[</span>your-name<span class="o">]</span>/<span class="o">[</span>your-name<span class="o">]</span>.github.io.git
+</span></span></code></pre></div>
+
+<h3 class="relative group">Hugo 
+    <div id="hugo-1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#hugo-1" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Every Hugo theme has its own options how to install it. I use git modules since it is easy to update and there won&rsquo;t be conflicts with my changes.</p>
+<p>For my page I used <code>Blowfish theme</code>. Follow their <a href="https://blowfish.page/docs/installation/" target="_blank">installation guide</a>.</p>
+<p>After you are done you should have structure similar to this</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">.
+</span></span><span class="line"><span class="cl">├── assets
+</span></span><span class="line"><span class="cl">│   └── img
+</span></span><span class="line"><span class="cl">│       └── author.jpg
+</span></span><span class="line"><span class="cl">├── config
+</span></span><span class="line"><span class="cl">│   └── _default
+</span></span><span class="line"><span class="cl">├── content
+</span></span><span class="line"><span class="cl">│   ├── _index.md
+</span></span><span class="line"><span class="cl">│   ├── about.md
+</span></span><span class="line"><span class="cl">│   └── posts
+</span></span><span class="line"><span class="cl">│       └── _index.md
+</span></span><span class="line"><span class="cl">└── themes
+</span></span><span class="line"><span class="cl">    └── blowfish
+</span></span></code></pre></div><p>Now all that&rsquo;s left is to copy our posts from obsidian to <code>content/posts</code>. You can do it with CLI or use the shell-commands plugin.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># macro for shell-commands</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># {{!_blog_path}} is my custom defined variable </span>
+</span></span><span class="line"><span class="cl">cp -a <span class="o">{{</span>!vault_path<span class="o">}}</span>/<span class="o">[</span>your-name<span class="o">]</span>.github.io/* <span class="o">{{</span>!_blog_path<span class="o">}}</span>/content/posts
+</span></span></code></pre></div><p>Generate the content for Hugo using</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo
+</span></span></code></pre></div><p>Or if you want to run the server to see the changes</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo serve
+</span></span></code></pre></div><p>Both of these commands will create static content in public folder which you need to commit too.</p>
+<p>Commit your changes after you are done</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;new post&#34;</span>
+</span></span></code></pre></div>
+
+<h3 class="relative group">GitHub Pages 
+    <div id="github-pages" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#github-pages" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>For deploying our blog we will need our domain and server so users can see our website.</p>
+<p>Fortunately GitHub has free service called <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> which offers you subdomain and server. Which is perfect for testing deployment for such project. This however comes with <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#limits-on-use-of-github-pages" target="_blank">limits</a> as what your page can do:</p>
+<ol>
+<li>Only static content, no databases or dynamic content. That means you can&rsquo;t have comments on your website if you later wanted to add them.</li>
+<li>Site can&rsquo;t be larger than 1 GB.</li>
+<li>Maximum bandwidth of 100 GB per month.</li>
+<li>and more &hellip;</li>
+</ol>
+
+
+<h4 class="relative group">1. Create GitHub Page 
+    <div id="1-create-github-page" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#1-create-github-page" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>To create GitHub page follow their <a href="https://docs.github.com/en/pages" target="_blank">documentation</a>.
+For our use case we will change the workflow how to deploy the page.</p>
+<p>When you setup your repository go to settings and change the Build and deployment source to GitHub Actions.
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        src="/posts/003-setting-up-blog/images/github-pages-settings.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+
+
+<h4 class="relative group">2. Create GitHub Workflow 
+    <div id="2-create-github-workflow" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#2-create-github-workflow" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Follow the <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/" target="_blank">Hugo documentation</a>.</p>
+<p>Here is copy of my workflow that makes sure that anytime I push the changes to <code>main</code> branch, the page will be rebuilt and pushed online.</p>
+<p>Paste this into <code>.github/workflows/hugo.yaml</code>.</p>
+
+
+
+
+
+
+
+  
+  
+
+  
+    
+  
+  
+  
+
+  
+  
+  
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="c"># Sample workflow for building and deploying a Hugo site to GitHub Pages</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy Hugo site to Pages</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># Runs on pushes targeting the default branch</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">push</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c"># you can add more branches to the list</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">branches</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;main&#34;</span><span class="p">]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># Allows you to run this workflow manually from the Actions tab</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">workflow_dispatch</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">permissions</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">contents</span><span class="p">:</span><span class="w"> </span><span class="l">read</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">pages</span><span class="p">:</span><span class="w"> </span><span class="l">write</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">id-token</span><span class="p">:</span><span class="w"> </span><span class="l">write</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">concurrency</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">group</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;pages&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">cancel-in-progress</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># Default to bash</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">defaults</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">run</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">shell</span><span class="p">:</span><span class="w"> </span><span class="l">bash</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># Build job</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">build</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">env</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="c"># Update to the release compatible with your theme</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="c"># https://github.com/gohugoio/hugo/releases/latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">HUGO_VERSION</span><span class="p">:</span><span class="w"> </span><span class="m">0.143.0</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Install Hugo CLI</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p">|</span><span class="sd">
+</span></span></span><span class="line"><span class="cl"><span class="sd">          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+</span></span></span><span class="line"><span class="cl"><span class="sd">          &amp;&amp; sudo dpkg -i ${{ runner.temp }}/hugo.deb</span><span class="w">          
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="c"># Dart Sass is optional, check if your themes/modules really need it</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Install Dart Sass</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">sudo snap install dart-sass</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Checkout</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v4</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">submodules</span><span class="p">:</span><span class="w"> </span><span class="l">recursive</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">fetch-depth</span><span class="p">:</span><span class="w"> </span><span class="m">0</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Setup Pages</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l">pages</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/configure-pages@v5</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Install Node.js dependencies</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;[[ -f package-lock.json || -f npm-shrinkwrap.json ]] &amp;&amp; npm ci || true&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build with Hugo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">env</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">HUGO_CACHEDIR</span><span class="p">:</span><span class="w"> </span><span class="l">${{ runner.temp }}/hugo_cache</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">HUGO_ENVIRONMENT</span><span class="p">:</span><span class="w"> </span><span class="l">production</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">TZ</span><span class="p">:</span><span class="w"> </span><span class="l">America/Los_Angeles</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p">|</span><span class="sd">
+</span></span></span><span class="line"><span class="cl"><span class="sd">          hugo \
+</span></span></span><span class="line"><span class="cl"><span class="sd">            --gc \
+</span></span></span><span class="line"><span class="cl"><span class="sd">            --minify \
+</span></span></span><span class="line"><span class="cl"><span class="sd">            --baseURL &#34;${{ steps.pages.outputs.base_url }}/&#34;</span><span class="w">          
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Upload artifact</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/upload-pages-artifact@v3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="l">./public</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># Deployment job</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">deploy</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">github-pages</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l">${{ steps.deployment.outputs.page_url }}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">needs</span><span class="p">:</span><span class="w"> </span><span class="l">build</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy to GitHub Pages</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l">deployment</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/deploy-pages@v4</span><span class="w">
+</span></span></span></code></pre></div>
+
+
+<p>After you are done with changes you can just push it to GitHub</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;add hugo deployment&#34;</span>
+</span></span></code></pre></div>
+
+<h3 class="relative group">Push 
+    <div id="push" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#push" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>After you committed all your changes and have the workflow setup. You can push your changes to your repository</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git push
+</span></span></code></pre></div><p>And after a while you should see your blog at <a href="https://[your-name].github.io" target="_blank">https://[your-name].github.io</a>.</p>
+
+
+<h1 class="relative group">References 
+    <div id="references" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#references" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<ul>
+<li><a href="https://github.com/solumath/Blog" target="_blank">https://github.com/solumath/Blog</a></li>
+<li><a href="https://obsidian.md/" target="_blank">https://obsidian.md/</a></li>
+<li><a href="https://github.com/jackyzha0/quartz" target="_blank">https://github.com/jackyzha0/quartz</a></li>
+<li><a href="https://git-scm.com/" target="_blank">https://git-scm.com/</a></li>
+<li><a href="https://github.com/" target="_blank">https://github.com/</a></li>
+<li><a href="https://docs.github.com" target="_blank">https://docs.github.com</a></li>
+<li><a href="https://gohugo.io/" target="_blank">https://gohugo.io/</a></li>
+<li><a href="https://github.com/SilentVoid13/Templater" target="_blank">https://github.com/SilentVoid13/Templater</a></li>
+<li><a href="https://blowfish.page/" target="_blank">https://blowfish.page/</a></li>
+</ul>
 
           
           
@@ -1560,7 +1731,7 @@ You just install the syncthing to devices and add each other as a shareable devi
             <strong class="block mt-8">
               <a target="_blank" 
               class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-              href="mailto:solumath99@gmail.com?subject=Reply%20to%20My%20obsidian%20setup">
+              href="mailto:solumath99@gmail.com?subject=Reply%20to%20Obsidian%20%2b%20Hugo%20%2b%20Github%20pages%20Blog">
                 Reply by Email
               </a>
             </strong>
@@ -1578,7 +1749,7 @@ You just install the syncthing to devices and add each other as a shareable devi
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://solumath.cz/posts/002-my-obsidian-setup/&amp;title=My%20obsidian%20setup"
+      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://solumath.cz/posts/003-setting-up-blog/&amp;title=Obsidian%20&#43;%20Hugo%20&#43;%20Github%20pages%20Blog"
       title="Share on LinkedIn"
       aria-label="Share on LinkedIn"
       >
@@ -1597,7 +1768,7 @@ You just install the syncthing to devices and add each other as a shareable devi
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://twitter.com/intent/tweet/?url=https://solumath.cz/posts/002-my-obsidian-setup/&amp;text=My%20obsidian%20setup"
+      href="https://twitter.com/intent/tweet/?url=https://solumath.cz/posts/003-setting-up-blog/&amp;text=Obsidian%20&#43;%20Hugo%20&#43;%20Github%20pages%20Blog"
       title="Tweet on Twitter"
       aria-label="Tweet on Twitter"
       >
@@ -1615,7 +1786,7 @@ You just install the syncthing to devices and add each other as a shareable devi
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://bsky.app/intent/compose?text=My%20obsidian%20setup&#43;https://solumath.cz/posts/002-my-obsidian-setup/"
+      href="https://bsky.app/intent/compose?text=Obsidian%20&#43;%20Hugo%20&#43;%20Github%20pages%20Blog&#43;https://solumath.cz/posts/003-setting-up-blog/"
       title="Post on Bluesky"
       aria-label="Post on Bluesky"
       >
@@ -1633,7 +1804,7 @@ You just install the syncthing to devices and add each other as a shareable devi
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://s2f.kytta.dev/?text=My%20obsidian%20setup%20https://solumath.cz/posts/002-my-obsidian-setup/"
+      href="https://s2f.kytta.dev/?text=Obsidian%20&#43;%20Hugo%20&#43;%20Github%20pages%20Blog%20https://solumath.cz/posts/003-setting-up-blog/"
       title=""
       aria-label=""
       >
@@ -1652,7 +1823,7 @@ You just install the syncthing to devices and add each other as a shareable devi
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://reddit.com/submit/?url=https://solumath.cz/posts/002-my-obsidian-setup/&amp;resubmit=true&amp;title=My%20obsidian%20setup"
+      href="https://reddit.com/submit/?url=https://solumath.cz/posts/003-setting-up-blog/&amp;resubmit=true&amp;title=Obsidian%20&#43;%20Hugo%20&#43;%20Github%20pages%20Blog"
       title="Submit to Reddit"
       aria-label="Submit to Reddit"
       >
@@ -1671,7 +1842,7 @@ You just install the syncthing to devices and add each other as a shareable devi
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://pinterest.com/pin/create/bookmarklet/?url=https://solumath.cz/posts/002-my-obsidian-setup/&amp;description=My%20obsidian%20setup"
+      href="https://pinterest.com/pin/create/bookmarklet/?url=https://solumath.cz/posts/003-setting-up-blog/&amp;description=Obsidian%20&#43;%20Hugo%20&#43;%20Github%20pages%20Blog"
       title="Pin on Pinterest"
       aria-label="Pin on Pinterest"
       >
@@ -1690,7 +1861,7 @@ You just install the syncthing to devices and add each other as a shareable devi
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.facebook.com/sharer/sharer.php?u=https://solumath.cz/posts/002-my-obsidian-setup/&amp;quote=My%20obsidian%20setup"
+      href="https://www.facebook.com/sharer/sharer.php?u=https://solumath.cz/posts/003-setting-up-blog/&amp;quote=Obsidian%20&#43;%20Hugo%20&#43;%20Github%20pages%20Blog"
       title="Share on Facebook"
       aria-label="Share on Facebook"
       >
@@ -1709,7 +1880,7 @@ You just install the syncthing to devices and add each other as a shareable devi
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="mailto:?body=https://solumath.cz/posts/002-my-obsidian-setup/&amp;subject=My%20obsidian%20setup"
+      href="mailto:?body=https://solumath.cz/posts/003-setting-up-blog/&amp;subject=Obsidian%20&#43;%20Hugo%20&#43;%20Github%20pages%20Blog"
       title="Send via email"
       aria-label="Send via email"
       >
@@ -1728,7 +1899,7 @@ You just install the syncthing to devices and add each other as a shareable devi
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://api.whatsapp.com/send?text=https://solumath.cz/posts/002-my-obsidian-setup/&amp;resubmit=true&amp;title=My%20obsidian%20setup"
+      href="https://api.whatsapp.com/send?text=https://solumath.cz/posts/003-setting-up-blog/&amp;resubmit=true&amp;title=Obsidian%20&#43;%20Hugo%20&#43;%20Github%20pages%20Blog"
       title="Share via WhatsApp"
       aria-label="Share via WhatsApp"
       >
@@ -1747,7 +1918,7 @@ You just install the syncthing to devices and add each other as a shareable devi
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://t.me/share/url?url=https://solumath.cz/posts/002-my-obsidian-setup/&amp;resubmit=true&amp;title=My%20obsidian%20setup"
+      href="https://t.me/share/url?url=https://solumath.cz/posts/003-setting-up-blog/&amp;resubmit=true&amp;title=Obsidian%20&#43;%20Hugo%20&#43;%20Github%20pages%20Blog"
       title="Share via Telegram"
       aria-label="Share via Telegram"
       >
@@ -1776,8 +1947,8 @@ You just install the syncthing to devices and add each other as a shareable devi
           
         
       <script>
-        var oid = "views_posts\/002-my-obsidian-setup\/index.md"
-        var oid_likes = "likes_posts\/002-my-obsidian-setup\/index.md"
+        var oid = "views_posts\/003-setting-up-blog\/index.md"
+        var oid_likes = "likes_posts\/003-setting-up-blog\/index.md"
       </script>
       
       
@@ -1797,7 +1968,7 @@ You just install the syncthing to devices and add each other as a shareable devi
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/posts/001-hello-world/">
+            <a class="flex group mr-3" href="/posts/002-my-obsidian-setup/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -1809,11 +1980,11 @@ You just install the syncthing to devices and add each other as a shareable devi
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Hello World</span
+                  >My obsidian setup</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2025-02-03T10:51:04&#43;01:00">3 February 2025</time>
+                    <time datetime="2025-02-03T13:52:05&#43;01:00">3 February 2025</time>
                   
                 </span>
               </span>
@@ -1821,28 +1992,6 @@ You just install the syncthing to devices and add each other as a shareable devi
           
         </span>
         <span>
-          
-            <a class="flex text-right group ml-3" href="/posts/003-setting-up-blog/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Obsidian + Hugo + Github pages Blog</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2025-02-08T13:52:03&#43;00:00">8 February 2025</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-            </a>
           
         </span>
       </div>

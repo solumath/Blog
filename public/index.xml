@@ -2,41 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>index on Solumath</title>
-    <link>http://localhost:1313/</link>
+    <link>https://solumath.cz/</link>
     <description>Recent content in index on Solumath</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>solumath99@gmail.com (Solumath)</managingEditor>
     <webMaster>solumath99@gmail.com (Solumath)</webMaster>
     <copyright>© 2025 Solumath</copyright>
-    <lastBuildDate>Mon, 20 Jan 2025 21:02:23 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Jan 2025 21:02:23 +0000</lastBuildDate><atom:link href="https://solumath.cz/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Obsidian &#43; Hugo &#43; Github pages Blog</title>
+      <link>https://solumath.cz/posts/003-setting-up-blog/</link>
+      <pubDate>Sat, 08 Feb 2025 13:52:03 +0000</pubDate>
+      <author>solumath99@gmail.com (Solumath)</author>
+      <guid>https://solumath.cz/posts/003-setting-up-blog/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://solumath.cz/posts/003-setting-up-blog/featured.jpg" />
+    </item>
     
     <item>
       <title>My obsidian setup</title>
-      <link>http://localhost:1313/posts/002-my-obsidian-setup/</link>
+      <link>https://solumath.cz/posts/002-my-obsidian-setup/</link>
       <pubDate>Mon, 03 Feb 2025 13:52:05 +0100</pubDate>
       <author>solumath99@gmail.com (Solumath)</author>
-      <guid>http://localhost:1313/posts/002-my-obsidian-setup/</guid>
+      <guid>https://solumath.cz/posts/002-my-obsidian-setup/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/002-my-obsidian-setup/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://solumath.cz/posts/002-my-obsidian-setup/featured.jpg" />
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/posts/001-hello-world/</link>
+      <link>https://solumath.cz/posts/001-hello-world/</link>
       <pubDate>Mon, 03 Feb 2025 10:51:04 +0100</pubDate>
       <author>solumath99@gmail.com (Solumath)</author>
-      <guid>http://localhost:1313/posts/001-hello-world/</guid>
+      <guid>https://solumath.cz/posts/001-hello-world/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://solumath.cz/about/</link>
       <pubDate>Mon, 20 Jan 2025 21:02:23 +0000</pubDate>
       <author>solumath99@gmail.com (Solumath)</author>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://solumath.cz/about/</guid>
       <description></description>
       
     </item>
