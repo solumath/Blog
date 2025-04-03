@@ -1,7 +1,7 @@
 ---
 title: My obsidian setup
 published: 2025-02-03T13:52:05+01:00
-modified: 2025-02-09T19:13:17+01:00
+modified: 2025-04-03T21:53:22+02:00
 draft: false
 description: Obsidian setup from programmer to other programmers. Description of structure, obsidian plugins and syncing method for multiple devices.
 tags:
@@ -11,6 +11,9 @@ tags:
 
 ## Vault
 
+You can try my obsidian vault, just download `.obsidian` folder and paste it into your vault.
+{{< github repo="solumath/dotfiles" >}}
+
 ### Structure
 
 My main sorting relies on keeping files placed in proper folders with correct topics. This allows me to navigate manually through the folder tree. Here's an example of some of my folders:
@@ -18,7 +21,7 @@ My main sorting relies on keeping files placed in proper folders with correct to
 - `Blog` — all my posts and associated materials
 - `Notes` — quick items I need to remember or work on later
 - `Daily posts` — ranging from daily tasks to dream journals
-- `Templates` — templates for Ocbsidian
+- `Templates` — templates for Obsidian
 - `OS` — configuration settings for multiple operating systems I use
 - Other topics ...
 ```txt
@@ -113,7 +116,7 @@ Linting your files is necessary if you want to have structured formatting. Linte
 [Source](https://github.com/scambier/obsidian-omnisearch)
 
 I can't stress how much this changes the way you can search for anything in your vault. Obsidian lacks native fuzzy search functionality. This however enables you to search anything and anywhere.
-Here is example how it works (gif from their official repository). 
+Here is example how it works (gif from their official repository).
 ![omnisearch example](images/omnisearch.gif)
 
 ### Shell-commands
@@ -123,12 +126,12 @@ Here is example how it works (gif from their official repository).
 Enables CLI command execution directly within Obsidian.
 I've setup multiple commands to streamline my workflow. Some of them you can see in the picture below. After you setup these commands. They are accessible using `CTRL + P` and their respective name.
 ![example of shell commands](images/shell-commands.png)
-Feature I would like to highlight are `Preactions`. 
+Feature I would like to highlight are `Preactions`.
 
 These are customizable actions that are done before calling your command. For instance, when committing from Obsidian, I use Preactions to create customizable commit messages.
 ![example of preaction](images/shell-commands-preaction.png)
 
-Now i just need to type `CTRL + P` find name of my command e.g. `blog: deploy post` and this little window will pop up. 
+Now i just need to type `CTRL + P` find name of my command e.g. `blog: deploy post` and this little window will pop up.
 
 ![commit message](images/shell-commands-commit-msg.png)
 {{< alert iconColor="#eed202" >}}
@@ -155,7 +158,7 @@ This minimal solution helps track post updates. Simply configure the property na
 
 Now we get to the big deal. Having synchronisation between multiple devices is the most crucial thing anyone can imagine. I mean you don't want to manually download your notes every time you write something on your mobile or computer. That would be waste of time.
 
-Options I found are `obsidian sync` and `syncthing`. 
+Options I found are `obsidian sync` and `syncthing`.
 
 ## Obsidian Sync
 
