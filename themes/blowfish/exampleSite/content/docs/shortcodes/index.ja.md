@@ -72,15 +72,17 @@ Twitter で私を[フォロー](https://twitter.com/nunocoracao)するのを忘�
 | パラメータ | 説明                                              |
 | --------- | -------------------------------------------------------- |
 | `link`    | **必須** ターゲット記事への `.RelPermalink`。 |
+| `showSummary` | **オプション** のブール値で、記事の要約を表示するかどうかを示します。設定されていない場合は、サイトのデフォルト設定が使用されます。 |
+| `compactSummary` | **オプション** のブール値で、要約をコンパクトモードで表示するかどうかを示します。デフォルトは false です。 |
 <!-- prettier-ignore-end -->
 
 **例:**
 
 ```md
-{{</* article link="/docs/welcome/" */>}}
+{{</* article link="/ja/docs/welcome/" showSummary=true compactSummary=true */>}}
 ```
 
-{{< article link="/docs/welcome/" >}}
+{{< article link="/ja/docs/welcome/" showSummary=true compactSummary=true >}}
 
 <br/><br/><br/>
 
@@ -292,15 +294,15 @@ Blowfish も、標準の Markdown 構文を使用して含まれる画像の自�
 | パラメータ | 説明                                           |
 | --------- | ----------------------------------------------------- |
 | `repo`    | [文字列] `username/repo` 形式の forgejo リポジトリ|
-| `server`  | [文字列] `https://v8.next.forgejo.org` のようなサーバー URL|
+| `server`  | [文字列] `https://v11.next.forgejo.org` のようなサーバー URL|
 <!-- prettier-ignore-end -->
 
 **例1:**
 
 ```md
-{{</* forgejo server="https://v8.next.forgejo.org" repo="forgejo/forgejo" */>}}
+{{</* forgejo server="https://v11.next.forgejo.org" repo="a/mastodon" */>}}
 ```
-{{< forgejo server="https://v8.next.forgejo.org" repo="forgejo/forgejo" >}}
+{{< forgejo server="https://v11.next.forgejo.org" repo="a/mastodon" >}}
 
 <br/><br/><br/>
 
@@ -359,6 +361,34 @@ Blowfish も、標準の Markdown 構文を使用して含まれる画像の自�
   <img src="gallery/06.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallery/07.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
 {{< /gallery >}}
+
+<br/><br/><br/>
+
+## Gist
+
+`gist`ショートコードは、Gistのユーザー名、ID、必要に応じて特定のファイル名を指定することで、GitHub Gistをコンテンツに直接埋め込むことができます。
+
+| パラメーター   | 説明                             |
+| ------------ | -------------------------------- |
+| `[0]`        | \[文字列] GitHubのユーザー名        |
+| `[1]`        | \[文字列] GistのID                |
+| `[2]`（オプション） | \[文字列] Gist内で埋め込む特定のファイル名（オプション） |
+
+**例1：Gist全体を埋め込む**
+
+```md
+{{</* gist "octocat" "6cad326836d38bd3a7ae" */>}}
+```
+
+{{< gist "octocat" "6cad326836d38bd3a7ae" >}}
+
+**例2：Gistの特定ファイルを埋め込む**
+
+```md
+{{</* gist "rauchg" "2052694" "README.md" */>}}
+```
+
+{{< gist "rauchg" "2052694" "README.md" >}}
 
 <br/><br/><br/>
 
@@ -426,6 +456,35 @@ Blowfish も、標準の Markdown 構文を使用して含まれる画像の自�
 
 <br/><br/><br/>
 
+## Hugging Face カード
+
+`huggingface` を使用すると、Hugging Face のモデルやデータセットを素早くリンクし、いいね数やダウンロード数などのリアルタイム情報を表示できます。
+
+| パラメータ | 説明                                                          |
+|-----------|---------------------------------------------------------------|
+| `model`   | [文字列] `ユーザー名/モデル名` の形式での Hugging Face モデル  |
+| `dataset` | [文字列] `ユーザー名/データセット名` の形式での Hugging Face データセット |
+
+**注意:** `model` または `dataset` パラメータのどちらか一方を使用してください。
+
+**例1（モデル）:**
+
+```md
+{{</* huggingface model="google-bert/bert-base-uncased" */>}}
+```
+
+{{< huggingface model="google-bert/bert-base-uncased" >}}
+
+**例2（データセット）:**
+
+```md
+{{</* huggingface dataset="stanfordnlp/imdb" */>}}
+```
+
+{{< huggingface dataset="stanfordnlp/imdb" >}}
+
+<br/><br/><br/>
+
 ## アイコン
 
 `icon` は SVG アイコンを出力し、アイコン名を唯一のパラメータとして受け取ります。アイコンは、現在のテキストサイズに合わせてスケーリングされます。
@@ -452,17 +511,17 @@ Blowfish も、標準の Markdown 構文を使用して含まれる画像の自�
 
 記事に数式を含めるには、コンテンツを含むショートコードを任意の場所に配置するだけです。記事ごとに1回だけ含める必要があり、KaTeX はそのページのマークアップを自動的にレンダリングします。インライン表記とブロック表記の両方がサポートされています。
 
-インライン表記は、式を `\\(` と `\\)` デリミタで囲むことで生成できます。また、ブロック表記は `$$` デリミタを使用して生成できます。
+インライン表記は、式を `\(` と `\)` デリミタで囲むことで生成できます。また、ブロック表記は `$$` デリミタを使用して生成できます。
 
 **例:**
 
 ```md
 {{</* katex */>}}
-\\(f(a,b,c) = (a^2+b^2+c^2)^3\\)
+\(f(a,b,c) = (a^2+b^2+c^2)^3\)
 ```
 
 {{< katex >}}
-\\(f(a,b,c) = (a^2+b^2+c^2)^3\\)
+\(f(a,b,c) = (a^2+b^2+c^2)^3\)
 
 [数式表記のサンプル]({{< ref "mathematical-notation" >}})ページで、その他の例を確認できます。
 

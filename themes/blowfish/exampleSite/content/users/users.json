@@ -153,14 +153,6 @@
     ]
   },
   {
-    "title": "niklas-hartmann-dev.de",
-    "url": "https://niklas-hartmann-dev.de/",
-    "source": "n/a",
-    "tags": [
-      "Personal site"
-    ]
-  },
-  {
     "title": "blog.muffn.io",
     "url": "https://blog.muffn.io/",
     "source": "n/a",
@@ -243,14 +235,6 @@
   {
     "title": "clemsau.com",
     "url": "https://clemsau.com/",
-    "source": "n/a",
-    "tags": [
-      "Personal site"
-    ]
-  },
-  {
-    "title": "lelouvincx.github.io",
-    "url": "https://lelouvincx.github.io/",
     "source": "n/a",
     "tags": [
       "Personal site"
@@ -369,14 +353,6 @@
     ]
   },
   {
-    "title": "adilhyz.github.io",
-    "url": "https://adilhyz.github.io",
-    "source": "n/a",
-    "tags": [
-      "Personal site"
-    ]
-  },
-  {
     "title": "ohdmire.github.io",
     "url": "https://ohdmire.github.io",
     "source": "n/a",
@@ -403,14 +379,6 @@
   {
     "title": "joush007.github.io",
     "url": "https://joush007.github.io",
-    "source": "n/a",
-    "tags": [
-      "Personal Site"
-    ]
-  },
-  {
-    "title": "rejowski.xyz",
-    "url": "https://rejowski.xyz/",
     "source": "n/a",
     "tags": [
       "Personal Site"
@@ -483,15 +451,6 @@
     "tags": [
       "Blog",
       "Personal Site"
-    ]
-  },
-  {
-    "title": "notes.bluesdriveamelia.space",
-    "url": "https://notes.bluesdriveamelia.space/",
-    "source": "n/a",
-    "tags": [
-      "Blog",
-      "Personal site"
     ]
   },
   {
@@ -630,15 +589,6 @@
     ]
   },
   {
-    "title": "江ノ島エスカー",
-    "url": "https://zen96k.github.io/enoshima-escar",
-    "source": "https://github.com/zen96k/enoshima-escar",
-    "tags": [
-      "Portfolio Site",
-      "Software Developer"
-    ]
-  },
-  {
     "title": "nveshaan",
     "url": "https://nveshaan.github.io/",
     "source": "n/a",
@@ -692,24 +642,6 @@
     ]
   },
   {
-    "title": "hetong-re4per.com",
-    "url": "https://hetong-re4per.com",
-    "source": "https://github.com/HeTongRe4per/HeTongRe4per.github.io",
-    "tags": [
-      "Personal site",
-      "Blog"
-    ]
-  },
-  {
-    "title": "Xeonzilla’s Note",
-    "url": "https://xeonzilla.github.io",
-    "source": "https://github.com/Xeonzilla/Xeonzilla.github.io",
-    "tags": [
-      "Personal site",
-      "Blog"
-    ]
-  },
-  {
     "title": "lazarusoverlook.com",
     "url": "https://lazarusoverlook.com",
     "source": "https://github.com/RolandMarchand/lazarus-manor",
@@ -747,16 +679,6 @@
     ]
   },
   {
-    "title": "Everybody Wants Some",
-    "url": "https://ews.ink/",
-    "source": "https://github.com/unacro/blog",
-    "tags": [
-      "Blog",
-      "Technology",
-      "Game Development"
-    ]
-  },
-  {
     "title": "merox.dev",
     "url": "https://merox.dev",
     "source": "https://github.com/mer0x/merox.dev",
@@ -773,15 +695,6 @@
     "source": "n/a",
     "tags": [
       "Business site"
-    ]
-  },
-  {
-    "title": "さばっこ",
-    "url": "https://sabac.co",
-    "source": "n/a",
-    "tags": [
-      "Personal site",
-      "Blog"
     ]
   },
   {
@@ -842,12 +755,131 @@
     ]
   },
   {
-    "title": "Bootleg Coal Rebellion  ",
+    "title": "Bootleg Coal Rebellion",
     "url": "https://bootlegcoal.com",
     "source": "n/a",
     "tags": [
       "Author Site",
       "Blog"
+    ]
+  },
+  {
+    "title": "Chill-Try",
+    "url": "https://ctry.tech/",
+    "source": "n/a",
+    "tags": [
+      "Technology Blog",
+      "Personal site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "Hudson McNamara",
+    "url": "https://hudsonmcnamara.com",
+    "source": "https://github.com/hudsonm62/hudsonmcnamara.com.git",
+    "tags": [
+      "Personal Site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "Weg um Weg",
+    "url": "https://www.wegumweg.de",
+    "source": "n/a",
+    "tags": [
+      "Blog",
+      "Outdoor Blog"
+    ]
+  },
+  {
+    "title": "The Space 🌍",
+    "url": "https://panoskorovesis.github.io/",
+    "source": "https://github.com/panoskorovesis/panoskorovesis.github.io",
+    "tags": [
+      "Personal Website",
+      "Tech Blog"
+    ]
+  },
+  {
+    "title": "blog.francescopapini.com",
+    "url": "https://blog.francescopapini.com",
+    "source": "https://github.com/papo1011/blog",
+    "tags": [
+      "Personal site",
+      "blog"
+    ]
+  },
+  {
+    "title": "Adri Antunez's Cloud Site",
+    "url": "https://adriantunez.cloud",
+    "source": "n/a",
+    "tags": [
+      "Technology Blog",
+      "Personal site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "irusukan",
+    "url": "https://irusukan.com",
+    "source": "n/a",
+    "tags": [
+      "Personal Site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "FEEC/UNICAMP IA382 - Seminar in Computer Engineering",
+    "url": "https://feec-seminar-comp-eng.github.io/",
+    "source": "https://github.com/feec-seminar-comp-eng/feec-seminar-comp-eng.github.io",
+    "tags": [
+      "Seminars",
+      "Class"
+    ]
+  },
+  {
+    "title": "blog.francescopapini.com",
+    "url": "https://blog.francescopapini.com",
+    "source": "n/a",
+    "tags": [
+      "Technology Blog",
+      "Personal Site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "Kyo's Garden",
+    "url": "https://heykyo.com",
+    "source": "n/a",
+    "tags": [
+      "Personal Site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "abantikabhuti.github.io",
+    "url": "https://abantikabhuti.github.io",
+    "source": "n/a",
+    "tags": [
+      "Personal site",
+      "Portfolio"
+    ]
+  },
+  {
+    "title": "yag0x1.github.io",
+    "url": "https://yag0x1.github.io",
+    "source": "n/a",
+    "tags": [
+      "Personal site",
+      "Portfolio"
+    ]
+  },
+  {
+    "title": "caytejohn.xyz",
+    "url": "https://caytejohn.xyz",
+    "source": "n/a",
+    "tags": [
+      "Personal site"
     ]
   }
 ]
