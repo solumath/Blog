@@ -1,12 +1,13 @@
 ---
 title: Hello World
-published: 2025-02-03T10:51:04+01:00
-modified: 2025-02-03T15:57:48+01:00
+published: 2025-02-03T10:51:04+02:00
+modified: 2025-09-06T18:22:00+02:00
 draft: false
 description: My first post
-tags: 
+cover: "[[featured.gif]]"
+tags:
 ---
 
 ## Hello there
 
-![obiwan](images/obiwan.gif)
+![obiwan](featured.gif)

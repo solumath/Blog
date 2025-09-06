@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorial on Solumath</title>
-    <link>https://solumath.cz/tags/tutorial/</link>
+    <link>http://localhost:1313/tags/tutorial/</link>
     <description>Recent content in Tutorial on Solumath</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>solumath99@gmail.com (Solumath)</managingEditor>
     <webMaster>solumath99@gmail.com (Solumath)</webMaster>
     <copyright>© 2025 Solumath</copyright>
-    <lastBuildDate>Sat, 08 Feb 2025 13:52:03 +0000</lastBuildDate><atom:link href="https://solumath.cz/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Feb 2025 13:52:03 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Obsidian &#43; Hugo &#43; Github pages Blog</title>
-      <link>https://solumath.cz/posts/003-setting-up-blog/</link>
-      <pubDate>Sat, 08 Feb 2025 13:52:03 +0000</pubDate>
+      <link>http://localhost:1313/posts/003-setting-up-blog/</link>
+      <pubDate>Sat, 08 Feb 2025 13:52:03 +0200</pubDate>
       <author>solumath99@gmail.com (Solumath)</author>
-      <guid>https://solumath.cz/posts/003-setting-up-blog/</guid>
+      <guid>http://localhost:1313/posts/003-setting-up-blog/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://solumath.cz/posts/003-setting-up-blog/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/003-setting-up-blog/featured.jpg" />
     </item>
     
   </channel>

@@ -1,9 +1,10 @@
 ---
 title: My obsidian setup
-published: 2025-02-03T13:52:05+01:00
-modified: 2025-04-03T21:53:22+02:00
+published: 2025-02-03T13:52:05+02:00
+modified: 2025-09-06T20:54:32+02:00
 draft: false
 description: Obsidian setup from programmer to other programmers. Description of structure, obsidian plugins and syncing method for multiple devices.
+cover: "[[featured.jpg]]"
 tags:
   - obsidian
   - obsidian-plugin

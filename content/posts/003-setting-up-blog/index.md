@@ -1,9 +1,10 @@
 ---
 title: Obsidian + Hugo + Github pages Blog
-published: 2025-02-08T13:52:03
-modified: 2025-03-02T15:45:30+01:00
+published: 2025-02-08T13:52:03+02:00
+modified: 2025-09-05T10:25:45+02:00
 draft: false
 description: How to set up blog using obsidian + hugo + github pages.
+cover: "[[featured.jpg]]"
 tags:
   - hugo
   - obsidian
