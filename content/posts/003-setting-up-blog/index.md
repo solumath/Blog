@@ -17,7 +17,7 @@ tags:
 This is a step-by-step guide on how I created the blog you’re reading right now.
 
 You can find all the code in my repo.
-{{< github repo="solumath/blog" >}}
+{{< github repo="solumath/blog" showThumbnail=false >}}
 
 ## Why Write a Blog?
 

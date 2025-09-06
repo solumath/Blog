@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tutorial on Solumath</title>
-    <link>http://localhost:1313/tags/tutorial/</link>
-    <description>Recent content in Tutorial on Solumath</description>
+    <title>Ohmyzsh on Solumath</title>
+    <link>http://localhost:1313/tags/ohmyzsh/</link>
+    <description>Recent content in Ohmyzsh on Solumath</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>solumath99@gmail.com (Solumath)</managingEditor>
     <webMaster>solumath99@gmail.com (Solumath)</webMaster>
     <copyright>© 2025 Solumath</copyright>
-    <lastBuildDate>Fri, 05 Sep 2025 23:48:04 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Sep 2025 23:48:04 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/ohmyzsh/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Manage Dotfiles with Git</title>
@@ -19,16 +19,6 @@
       <guid>http://localhost:1313/posts/004-dotfiles/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/004-dotfiles/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Obsidian &#43; Hugo &#43; Github pages Blog</title>
-      <link>http://localhost:1313/posts/003-setting-up-blog/</link>
-      <pubDate>Sat, 08 Feb 2025 13:52:03 +0200</pubDate>
-      <author>solumath99@gmail.com (Solumath)</author>
-      <guid>http://localhost:1313/posts/003-setting-up-blog/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/003-setting-up-blog/featured.jpg" />
     </item>
     
   </channel>
