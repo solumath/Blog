@@ -277,7 +277,8 @@ After you committed all your changes and have the workflow setup. You can push y
 git push
 ```
 
-And after a while you should see your blog at <https://[your-name].github.io>.
+And after a while you should see your blog at \
+`https://[your-name].github.io`.
 
 # References
 
