@@ -8,8 +8,18 @@
     <language>en</language>
     <managingEditor>solumath99@gmail.com (Solumath)</managingEditor>
     <webMaster>solumath99@gmail.com (Solumath)</webMaster>
-    <copyright>© 2025 Solumath</copyright>
-    <lastBuildDate>Mon, 20 Jan 2025 21:02:23 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 Solumath</copyright>
+    <lastBuildDate>Sun, 04 Jan 2026 13:47:24 +0100</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How To Break Synology RAID 1</title>
+      <link>http://localhost:1313/posts/005-how-to-break-synology-raid-1/</link>
+      <pubDate>Sat, 03 Jan 2026 21:45:43 +0100</pubDate>
+      <author>solumath99@gmail.com (Solumath)</author>
+      <guid>http://localhost:1313/posts/005-how-to-break-synology-raid-1/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/005-how-to-break-synology-raid-1/featured.jpg" />
+    </item>
     
     <item>
       <title>Manage Dotfiles with Git</title>

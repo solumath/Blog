@@ -8,8 +8,38 @@
     <language>en</language>
     <managingEditor>solumath99@gmail.com (Solumath)</managingEditor>
     <webMaster>solumath99@gmail.com (Solumath)</webMaster>
-    <copyright>© 2025 Solumath</copyright>
-    <lastBuildDate>Fri, 05 Sep 2025 23:48:04 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 Solumath</copyright>
+    <lastBuildDate>Sun, 04 Jan 2026 13:47:24 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Nas</title>
+      <link>http://localhost:1313/tags/nas/</link>
+      <pubDate>Sat, 03 Jan 2026 21:45:43 +0100</pubDate>
+      <author>solumath99@gmail.com (Solumath)</author>
+      <guid>http://localhost:1313/tags/nas/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Raid</title>
+      <link>http://localhost:1313/tags/raid/</link>
+      <pubDate>Sat, 03 Jan 2026 21:45:43 +0100</pubDate>
+      <author>solumath99@gmail.com (Solumath)</author>
+      <guid>http://localhost:1313/tags/raid/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Synology</title>
+      <link>http://localhost:1313/tags/synology/</link>
+      <pubDate>Sat, 03 Jan 2026 21:45:43 +0100</pubDate>
+      <author>solumath99@gmail.com (Solumath)</author>
+      <guid>http://localhost:1313/tags/synology/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Bash</title>

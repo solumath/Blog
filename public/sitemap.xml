@@ -3,6 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/posts/005-how-to-break-synology-raid-1/</loc>
+    <lastmod>2026-01-04T13:47:24+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/posts/004-dotfiles/</loc>
     <lastmod>2025-09-06T20:57:50+02:00</lastmod>
     <changefreq>daily</changefreq>
